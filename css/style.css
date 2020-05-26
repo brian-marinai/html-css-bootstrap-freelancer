@@ -6,12 +6,19 @@
 body{
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-/* regole di debug */
 
-
-[class*="col-"] {
-
+/* classi */
+.titolo{
+  padding-top: 40px;
+  font-size: 60px;
+  text-align: center;
 }
+.stellina{
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+}
+
 /* parte header */
 header{
   background-color: #2c3e50;
@@ -56,9 +63,6 @@ header .navbar-default .navbar-brand:hover{
   margin-right: auto;
 }
 #jumbo h1{
-  padding-top: 20px;
-  font-size: 60px;
-  text-align: center;
   color: white;
 }
 #jumbo p{
@@ -68,11 +72,6 @@ header .navbar-default .navbar-brand:hover{
   margin-bottom: 100px;
 }
 
-.stellina{
-  padding-bottom: 15px;
-  text-align: center;
-  font-size: 40px;
-}
 #jumbo i{
   color: white;
 }
@@ -80,36 +79,49 @@ header .navbar-default .navbar-brand:hover{
 /* portfolio */
 #portfolio h1{
   padding-top: 40px;
-  font-size: 60px;
-  text-align: center;
   color: #2c3e50;
 }
 #portfolio i{
   color: #2c3e50;
 }
 #portfolio img{
+  border-radius: 5%;
   height: 250px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-
-
-
-
-
-
-
+/* sezione about */
 #about{
   background-color: #1abc9c;
 }
-#footer1{
-  background-color: #2c3e50;
+#about h1{
+  color: white;
 }
-#footer2{
-  background-color: #1a252f;
+#about i{
+  color: white;
 }
-#contatti [class*="col-"] {
-  height: auto;
+#about p{
+  font-size: 20px;
+  line-height: 35px;
+  color: white;
 }
+.button{
+  text-align: center;
+}
+#about a{
+  border: none;
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 100px;
+}
+
+/* sezione contatti */
 #contatti .form-group input,
 #contatti .form-group textarea{
   border: none;
@@ -117,5 +129,73 @@ header .navbar-default .navbar-brand:hover{
   box-shadow: none;
 }
 #contatti h1{
+  text-align: center;
+}
+#contatti{
+  height:
+}
+#contatti h1{
+  color: #2c3e50;
+}
+#contatti i{
+  color: #2c3e50;
+}
+#contatti .form-group input,
+#contatti .form-group textarea{
+  font-size: 25px;
+}
+.form-group{
+  padding-bottom: 20px;
+}
+
+#contatti button{
+  background-color: #1abc9c;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 100px;
+}
+
+/* parte footer */
+#footer1{
+  background-color: #2c3e50;
+}
+#footer2{
+  background-color: #1a252f;
+}
+.sottotitolo{
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+.paragrafo{
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+#footer1 ul li{
+  display: inline-block;
+}
+#footer1 ul li a{
+  color: white;
+  font-size: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#footer1 ul{
+  padding-top: 10px;
+  text-align: center;
+}
+#footer1 a{
+  color: #1abc9c;
+}
+#spazio{
+  padding-bottom: 100px;
+}
+#footer2 p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
   text-align: center;
 }
